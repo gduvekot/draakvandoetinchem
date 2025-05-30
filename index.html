@@ -2,214 +2,216 @@
 <html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Draak van Doetinchem</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 </head>
 
 <body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#bio-section">Personages</a></li>
+                <li><a href="#merch-carousel">Merchandise</a></li>
+                <li><a href="#fanart-gallery">Fanart</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <body>
-        <header class="navbar">
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#banner">Home</a></li>
-                    <li><a href="#bio-section">kanker</a></li>
-                    <li><a href="#merch-carousel">Merchandise</a></li>
-                    <li><a href="#fanart-gallery">Fanart</a></li>
-                    <li><a href="#quiz">Quiz</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section class="banner" id="banner">
-            <div class="carousel">
-                <div class="carousel-images">
-                    <img alt="screenshot1" src="images/screenshot3.jpg">
-                    <img alt="screenshot2"src="images/screenshot.jpg">
-                    <img alt="screenshot3"src="images/screenshot2.png">
-                </div>
+    <section class="banner" id="banner">
+        <div class="carousel">
+            <div class="carousel-images">
+                <img alt="screenshot1" src="images/screenshot3.jpg" />
+                <img alt="screenshot2" src="images/screenshot.jpg" />
+                <img alt="screenshot3" src="images/screenshot2.png" />
             </div>
-            <div class="info">
-                <h1>Draak van Doetinchem</h1>
-                <p>Duik in de spannende wereld van Draak van Doetinchem, een game die draait om de Nederlandse maffia.
-                    Beleef actie, avontuur en intrige in een unieke setting!</p>
-                <a href="https://stink0440.itch.io/draak-van-doetinchem">Speel nu</a>
-            </div>
-        </section>
-
-        <section class="bio-section" id="bio-section">
-            <div class="bio kirjan">
-                <img alt="kirjan"src="images/kirjan.png">
-                <h2>Kirjan Drakenhoofd</h2>
-                <p>Hallo mijn naam is Kirjan, ik ben de legendarische draak van Doetinchem. Ik draag graag mijn badjas
-                    en mijn tulp op mijn rug.</p>
-                <audio controls>
-                    <source src="geluid/kirjan.mp3" type="audio/mpeg">
-                    Uw browser ondersteunt geen audio-element.
-                </audio>
-            </div>
-            <div class="bio piet">
-                <img alt="piet"src="images/piet.png">
-                <h2>Piet Serban</h2>
-                <p>Uuuh hallo, ik ben Piet. Ik ben van de Serban familie, de meest gerenommeerde familie in het land. We
-                    worden gezien als grote losers.</p>
-                <audio controls>
-                    <source src="geluid/piet.mp3" type="audio/mpeg">
-                    Uw browser ondersteunt geen audio-element.
-                </audio>
-            </div>
-            <div class="bio adderachie">
-                <img alt="adderachie"src="images/adderachie.png">
-                <h2>Adderachie</h2>
-                <p>Ha, ik ben oude Adderachie. Ik ben al heel mijn leven politieagent.</p><br>
-                <audio controls>
-                    <source src="geluid/adderachie.mp3" type="audio/mpeg">
-                    Uw browser ondersteunt geen audio-element.
-                </audio>
-            </div>
-        </section>
-
-        <section class="merch-carousel" id="merch-carousel">
-            <h2>Merchandise</h2>
-            <div class="carousel-container">
-                <button class="arrow arrow-left">&larr;</button>
-                <div class="merch-items">
-                    <div class="item-5">
-                        <img src="images/shirt5.png" alt="shirt5">
-                        <p class="merch-titel">Piet</p>
-                        <p class="merch-prijs">€ 15,00</p>
-                        <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
-
-                    </div>
-                    <div class="item-6">
-                        <img src="images/shirt6.png" alt="shirt6">
-                        <p class="merch-titel">Kirjan</p>
-                        <p class="merch-prijs">€ 15,00</p>
-                        <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
-
-                    </div>
-                    <div class="item-7">
-                        <img src="images/shirt7.png" alt="shirt7">
-                        <p class="merch-titel">Adderachie</p>
-                        <p class="merch-prijs">€ 15,00</p>
-                        <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
-
-                    </div>
-                    <div class="item-1">
-                        <img src="images/shirt1.png" alt="shirt1">
-                        <p class="merch-titel">My Body is a Machine...</p>
-                        <p class="merch-prijs">€ 15,00</p>
-                        <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
-                    </div>
-                    <div class="item-2">
-                        <img src="images/shirt2.png" alt="shirt2">
-                        <p class="merch-titel">GRU</p>
-                        <p class="merch-prijs">€ 15,00</p>
-                        <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
-                    </div>
-                    <div class="item-3">
-                        <img src="images/shirt3.png" alt="shirt3">
-                        <p class="merch-titel">Dake Rapper</p>
-                        <p class="merch-prijs">€ 15,00</p>
-                        <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
-                    </div>
-                    <div class="item-4">
-                        <img src="images/shirt4.png" alt="shirt4">
-                        <p class="merch-titel">BenGij</p>
-                        <p class="merch-prijs">€ 15,00</p>
-                        <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
-                    </div>
-                </div>
-                <button class="arrow arrow-right">&rarr;</button>
-            </div>
-        </section>
-
-      
-     
-        <section class="fanart-gallery" id="fanart-gallery">
-
-            <h2>Galerij voor Fanart</h2>
-            <p>Upload jouw creaties over Draak van Doetinchem!</p>
-            <label for="fanart-input" class="file-label">Kies een bestand</label>
-            <input type="file" id="fanart-input" accept="image/*">
-            
-            <button type="button" class="upload-btn" onclick="uploadFanart()">Upload</button>
-            
-            <div id="fanart-preview"></div>
-    
-        </section>
-        <div id="loading-screen" class="loading-screen">
-            Uploaden... Even geduld! ⏳
         </div>
-        
-        <section class="quiz" id="quiz">
-            <h2>Welke 'Draak van Doetinchem'-karakter ben jij?</h2>
-            <form id="quiz-form">
-                <label>Vraag 1: Wat doe je als je in een moeilijke situatie zit?
-                    <select>
-                        <option value=""></option>
-                        <option value="A">Ik blijf kalm en zoek naar een slimme oplossing.</option>
-                        <option value="B">Ik probeer het op een grappige manier op te lossen, zelfs als het niet lukt.
-                        </option>
-                        <option value="C">Ik gebruik mijn ervaring en wijsheid om het probleem te overwinnen.</option>
-                    </select>
-                </label>
-                <label>Vraag 2: Hoe zien jouw vrije dagen eruit?
-                    <select>
-                        <option value=""></option>
-                        <option value="A">Lekker in mijn badjas rondhangen en genieten van wat rust.</option>
-                        <option value="B">Gekke dingen doen, zoals pranks uithalen of iets spannends proberen.</option>
-                        <option value="C">Rustig aan doen, een boek lezen of een wandeling maken.</option>
-                    </select>
-                </label>
-                <label>Vraag 3: Hoe zouden je vrienden jou omschrijven?
-                    <select>
-                        <option value=""></option>
-                        <option value="A">Stil, mysterieus en een beetje intimiderend.</option>
-                        <option value="B">Chaotisch, grappig en altijd een beetje raar.</option>
-                        <option value="C">Betrouwbaar, vriendelijk en een beetje ouderwets.</option>
-                    </select>
-                </label>
-                <label>Vraag 4: Wat is jouw favoriete wapen?
-                    <select>
-                        <option value=""></option>
-                        <option value="A">Een katana - snel, dodelijk en stijlvol.</option>
-                        <option value="B">Mijn scherpe humor en wilde acties.</option>
-                        <option value="C">Mijn verstand en een stok als het echt moet.</option>
-                    </select>
-                </label>
-                <label>Vraag 5: Wat is je grootste kracht?
-                    <select>
-                        <option value=""></option>
-                        <option value="A">Mijn vastberadenheid en kracht.</option>
-                        <option value="B">Mijn creativiteit en enthousiasme.</option>
-                        <option value="C">Mijn ervaring en doorzettingsvermogen.</option>
-                    </select>
-                </label>
+        <div class="info">
+            <h1>Draak van Doetinchem</h1>
+            <p>
+                Duik in de spannende wereld van Draak van Doetinchem, een game die draait om de
+                Nederlandse maffia. Beleef actie, avontuur en intrige in een unieke setting!
+            </p>
+            <a href="https://stink0440.itch.io/draak-van-doetinchem" target="_blank" rel="noopener noreferrer">Speel nu</a>
+        </div>
+    </section>
 
-                <button type="button" onclick="showResult()">Bekijk resultaat</button>
-            </form>
-        </section>
+    <section class="bio-section" id="bio-section">
+        <div class="bio kirjan">
+            <img alt="kirjan" src="images/kirjan.png" />
+            <h2>Kirjan Drakenhoofd</h2>
+            <p>
+                Hallo mijn naam is Kirjan, ik ben de legendarische draak van Doetinchem. Ik draag graag mijn
+                badjas en mijn tulp op mijn rug.
+            </p>
+            <audio controls>
+                <source src="geluid/kirjan.mp3" type="audio/mpeg" />
+                Uw browser ondersteunt geen audio-element.
+            </audio>
+        </div>
+        <div class="bio piet">
+            <img alt="piet" src="images/piet.png" />
+            <h2>Piet Serban</h2>
+            <p>
+                Uuuh hallo, ik ben Piet. Ik ben van de Serban familie, de meest gerenommeerde familie in het
+                land. We worden gezien als grote losers.
+            </p>
+            <audio controls>
+                <source src="geluid/piet.mp3" type="audio/mpeg" />
+                Uw browser ondersteunt geen audio-element.
+            </audio>
+        </div>
+        <div class="bio adderachie">
+            <img alt="adderachie" src="images/adderachie.png" />
+            <h2>Adderachie</h2>
+            <p>Ha, ik ben oude Adderachie. Ik ben al heel mijn leven politieagent.</p>
+            <audio controls>
+                <source src="geluid/adderachie.mp3" type="audio/mpeg" />
+                Uw browser ondersteunt geen audio-element.
+            </audio>
+        </div>
+    </section>
 
-        <footer>
-            <div class="socials">
-                <a href="http://instagram.com/draakvandoetinchem">Instagram</a>
-                <a>|</a>
-                <a href="http://x.com/draakvandoet">X</a>
-                <a>|</a>
-                <a href="http://xiaohongshu.com/draakvandoetinchem">Xiao Hong Shu</a>
-                <a>|</a>
-                <a href="https://www.youtube.com/channel/UCQnymKEeWC7e_c6eduvgwRg">YouTube</a>
-                <a>|</a>
-                <a href="http://facebook.com/draakvandoetinchem">Facebook</a>
-            </div><br>
-            <p>"Je krijgt ervan langs!" - Piet Serban</p><br>
-            <p>Copyright © BenGij - 2025</p>
-        </footer>
-    </body>
+    <section class="merch-carousel" id="merch-carousel">
+        <h2>Merchandise</h2>
+        <div class="carousel-container">
+            <button class="arrow arrow-left">&larr;</button>
+            <div class="merch-items">
+                <div class="item-5">
+                    <img src="images/shirt5.png" alt="shirt5" />
+                    <p class="merch-titel">Piet</p>
+                    <p class="merch-prijs">€ 15,00</p>
+                    <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
+                </div>
+                <div class="item-6">
+                    <img src="images/shirt6.png" alt="shirt6" />
+                    <p class="merch-titel">Kirjan</p>
+                    <p class="merch-prijs">€ 15,00</p>
+                    <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
+                </div>
+                <div class="item-7">
+                    <img src="images/shirt7.png" alt="shirt7" />
+                    <p class="merch-titel">Adderachie</p>
+                    <p class="merch-prijs">€ 15,00</p>
+                    <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
+                </div>
+                <div class="item-1">
+                    <img src="images/shirt1.png" alt="shirt1" />
+                    <p class="merch-titel">My Body is a Machine...</p>
+                    <p class="merch-prijs">€ 15,00</p>
+                    <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
+                </div>
+                <div class="item-2">
+                    <img src="images/shirt2.png" alt="shirt2" />
+                    <p class="merch-titel">GRU</p>
+                    <p class="merch-prijs">€ 15,00</p>
+                    <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
+                </div>
+                <div class="item-3">
+                    <img src="images/shirt3.png" alt="shirt3" />
+                    <p class="merch-titel">Dake Rapper</p>
+                    <p class="merch-prijs">€ 15,00</p>
+                    <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
+                </div>
+                <div class="item-4">
+                    <img src="images/shirt4.png" alt="shirt4" />
+                    <p class="merch-titel">BenGij</p>
+                    <p class="merch-prijs">€ 15,00</p>
+                    <button class="kopen"><i class="fas fa-shopping-cart"></i> Kopen</button>
+                </div>
+            </div>
+            <button class="arrow arrow-right">&rarr;</button>
+        </div>
+    </section>
+
+    <section class="fanart-gallery" id="fanart-gallery">
+        <h2>Galerij voor Fanart</h2>
+        <p>Upload jouw creaties over Draak van Doetinchem!</p>
+        <label for="fanart-input" class="file-label">Kies een bestand</label>
+        <input type="file" id="fanart-input" accept="image/*" />
+        <button type="button" class="upload-btn" onclick="uploadFanart()">Upload</button>
+        <div id="fanart-preview"></div>
+    </section>
+
+    <div id="loading-screen" class="loading-screen">Uploaden... Even geduld! ⏳</div>
+
+    <section class="quiz" id="quiz">
+        <h2>Welke 'Draak van Doetinchem'-karakter ben jij?</h2>
+        <form id="quiz-form">
+            <label>
+                Vraag 1: Wat doe je als je in een moeilijke situatie zit?
+                <select>
+                    <option value=""></option>
+                    <option value="A">Ik blijf kalm en zoek naar een slimme oplossing.</option>
+                    <option value="B">Ik probeer het op een grappige manier op te lossen, zelfs als het niet lukt.</option>
+                    <option value="C">Ik gebruik mijn ervaring en wijsheid om het probleem te overwinnen.</option>
+                </select>
+            </label>
+            <label>
+                Vraag 2: Hoe zien jouw vrije dagen eruit?
+                <select>
+                    <option value=""></option>
+                    <option value="A">Lekker in mijn badjas rondhangen en genieten van wat rust.</option>
+                    <option value="B">Gekke dingen doen, zoals pranks uithalen of iets spannends proberen.</option>
+                    <option value="C">Rustig aan doen, een boek lezen of een wandeling maken.</option>
+                </select>
+            </label>
+            <label>
+                Vraag 3: Hoe zouden je vrienden jou omschrijven?
+                <select>
+                    <option value=""></option>
+                    <option value="A">Stil, mysterieus en een beetje intimiderend.</option>
+                    <option value="B">Chaotisch, grappig en altijd een beetje raar.</option>
+                    <option value="C">Betrouwbaar, vriendelijk en een beetje ouderwets.</option>
+                </select>
+            </label>
+            <label>
+                Vraag 4: Wat is jouw favoriete wapen?
+                <select>
+                    <option value=""></option>
+                    <option value="A">Een katana - snel, dodelijk en stijlvol.</option>
+                    <option value="B">Mijn scherpe humor en wilde acties.</option>
+                    <option value="C">Mijn verstand en een stok als het echt moet.</option>
+                </select>
+            </label>
+            <label>
+                Vraag 5: Wat is je grootste kracht?
+                <select>
+                    <option value=""></option>
+                    <option value="A">Mijn vastberadenheid en kracht.</option>
+                    <option value="B">Mijn creativiteit en enthousiasme.</option>
+                    <option value="C">Mijn ervaring en doorzettingsvermogen.</option>
+                </select>
+            </label>
+            <button type="button" onclick="showResult()">Bekijk resultaat</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="socials">
+            <a href="http://instagram.com/draakvandoetinchem" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <span>|</span>
+            <a href="http://x.com/draakvandoet" target="_blank" rel="noopener noreferrer">X</a>
+            <span>|</span>
+            <a href="http://xiaohongshu.com/draakvandoetinchem" target="_blank" rel="noopener noreferrer">Xiao Hong Shu</a>
+            <span>|</span>
+            <a href="https://www.youtube.com/channel/UCQnymKEeWC7e_c6eduvgwRg" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <span>|</span>
+            <a href="http://facebook.com/draakvandoetinchem" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+        <br />
+        <p>"Je krijgt ervan langs!" - Piet Serban</p>
+        <br />
+        <p>Copyright © BenGij - 2025</p>
+    </footer>
+</body>
 
 </html>
