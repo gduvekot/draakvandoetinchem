@@ -141,6 +141,7 @@ body {
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
+
   
   .carousel-images img:hover {
     transform: scale(1.05);
