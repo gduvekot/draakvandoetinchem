@@ -1,4 +1,3 @@
-
 html {
   scroll-behavior: smooth;
 }
@@ -47,9 +46,6 @@ body {
     border-radius: 5px;
 }
 
-
-
-
 .bio-section {
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +58,7 @@ body {
   
   .bio {
     flex: 1 1 calc(30% - 1rem);
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white;
@@ -89,10 +85,6 @@ body {
     margin-bottom: 1rem;
   }
   
-
-  
-
-  
   .bio.kirjan {
     background-color: #520128; 
     align-self: flex-start;
@@ -108,20 +100,30 @@ body {
     align-self: flex-start;
   }
   
-
-  
-
-
-  .banner {
+.banner {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
     background: linear-gradient(135deg, #111, #333);
-
-   
     gap: 40px;
+}
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    padding: 20px;
   }
+
+  .banner .carousel {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .banner .info {
+    max-width: 100%;
+    text-align: center;
+  }
+}
 
   .carousel {
     width: 100%;
@@ -134,18 +136,14 @@ body {
   }
   
 .carousel-images img {
-    width: 100%;
+
     object-fit: cover;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
-
-  
-  .carousel-images img:hover {
-    transform: scale(1.05);
-  }
+ 
   
   @keyframes slide {
     0% {
@@ -161,7 +159,6 @@ body {
       transform: translateX(0);
     }
   }
-  
 
   .banner .info {
     color: white;
@@ -233,22 +230,17 @@ body {
   border-radius: 10px;
 }
 
-
-
-
 @media (max-width: 480px) {
   .merch-items > div {
       flex: 0 0 100%; 
   }
 }
 
-
 @media (max-width: 768px) {
   .merch-items > div {
       flex:  0 calc(50% - 10px);
   }
 }
-
 
 .arrow {
   position: absolute;
@@ -280,8 +272,6 @@ body {
 .arrow:hover {
   background-color: #555; 
 }
-
-
 
 .fanart-gallery {
     padding: 20px;
@@ -332,7 +322,6 @@ body {
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 .file-label:hover {
   background-color: #e68900;
@@ -352,13 +341,12 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 .upload-btn:hover {
   background-color: #45a049;
 }
 .loading-screen {
-  display: none; /* Zorgt ervoor dat het standaard verborgen is */
+  display: none; 
   position: fixed;
   top: 0;
   left: 0;
@@ -372,13 +360,11 @@ body {
   z-index: 9999;
 }
 
-
-
 .quiz-container {
   display: flex;
-  justify-content: center; /* horizontaal centreren */
-  align-items: center;     /* verticaal centreren */
-  min-height: 300px;       /* hoogte waarbinnen je wilt centreren */
+  justify-content: center; 
+  align-items: center;    
+  min-height: 300px;     
   padding: 20px;
 }
 
@@ -386,7 +372,7 @@ body {
   display: block;
   margin-bottom: 8px;
   font-weight: 600;
-  color: #012e69; /* rustige, passende kleur */
+  color: #012e69; 
   font-size: 1rem;
 }
 
@@ -402,7 +388,7 @@ body {
 
 .quiz select:focus {
   outline: none;
-  border-color: #e74c3c; /* accentkleur */
+  border-color: #e74c3c;
 }
 
 .quiz button {
@@ -421,8 +407,6 @@ body {
   background-color: #e74c3c;
   color: white;
 }
-
-
 
 footer {
     background-color: #ff8c00;
