@@ -373,30 +373,56 @@ body {
 }
 
 
-.quiz {
-    padding: 20px;
+
+.quiz-container {
+  display: flex;
+  justify-content: center; /* horizontaal centreren */
+  align-items: center;     /* verticaal centreren */
+  min-height: 300px;       /* hoogte waarbinnen je wilt centreren */
+  padding: 20px;
 }
 
-.quiz h2 {
-    text-align: center;
+.quiz label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #012e69; /* rustige, passende kleur */
+  font-size: 1rem;
 }
 
-.quiz form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 500px;
-    margin: auto;
+.quiz select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.quiz select:focus {
+  outline: none;
+  border-color: #e74c3c; /* accentkleur */
 }
 
 .quiz button {
-    padding: 10px;
-    background-color: #900;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 30px;
+  color: #e74c3c;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.quiz button:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+
 
 footer {
     background-color: #ff8c00;
